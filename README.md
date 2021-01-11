@@ -16,10 +16,10 @@ Filters for the devtools in Discord to clean it up.
 | `-/\[AuthenticationStore\]/` | `-/\[GuildAvailabilityStore\]/` |
 | `-/\[NativeDispatchUtils\]/` | `-/\[Spellchecker\]/` |
 | `-/\[RouterUtils\]/` | `-/\[Violation\]/` |
-|  [Screensharing] `-/capturing\sdesktop/` |
+|  [Screensharing] `-/capturing\sdesktop/ -/(S\|Uns)ubscribing\s(to\|from)\sframes.+\d+/` |
 
 ```regex
--/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/
+-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/ -/(S\|Uns)ubscribing\s(to\|from)\sframes.+\d+/
 ```
 
 ## Discord Errors
@@ -30,10 +30,10 @@ Filters for the devtools in Discord to clean it up.
 | `-/SourceMap/` | `-/SET_ACTIVITY/` |
 | `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
 | `-/GET\s.+\d{3}/` | `-/iterable\.length/` |
-| `-/react-spring:\sThe\s"interpolate"/` | `-/(S\|Uns)ubscribing\s(to\|from)\sframes.+\d+/` |
+| `-/react-spring:\sThe\s"interpolate"/` |
 
 ```regex
--/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/
+-/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/
 ```
 
 ## Client Mod Crap
@@ -49,5 +49,5 @@ Filters for the devtools in Discord to clean it up.
 ## Everything
 
 ```regex
--/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/ -/"pc-sdk"/ -/\[BdApi\]\sgetPlugin/
+-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/ -/(S\|Uns)ubscribing\s(to\|from)\sframes.+\d+/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/\[BdApi\]\sgetPlugin/
 ```
