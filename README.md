@@ -27,10 +27,10 @@ Filters for the devtools in Discord to clean it up.
 | `-/WebSocket\sconnection/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/Discord_kEQ9HvoxiO.png) | `-/The\sconnection\shas\sbeen\srevoked/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordCanary_gOz21e3NMf.png) |
 | `-/SourceMap/` | `-/SET_ACTIVITY/` |
 | `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
-| `-/GET\s.+\d{3}/` |
+| `-/GET\s.+\d{3}/` | `-/iterable\.length/` |
 
 ```regex
--/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/
+-/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/
 ```
 
 ## Client Mod Crap
@@ -46,5 +46,5 @@ Filters for the devtools in Discord to clean it up.
 ## Everything
 
 ```regex
--/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/ -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/"pc-sdk"/ -/\[BdApi\]\sgetPlugin/
+-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/ -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/"pc-sdk"/ -/\[BdApi\]\sgetPlugin/
 ```
