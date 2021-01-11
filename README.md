@@ -10,12 +10,12 @@ Filters for the devtools in Discord to clean it up.
 | `-/\[Spotify\]/` | `-/\[Flux\]/` |
 | `-/\[GatewaySocket\]/` | `-/\[RTCLatencyTestManager\]/` |
 | `-/\[Logger\.tsx\]/` | `-/\[default\]/` |
-| `-/\[MessageActionCreators\]/` 
+| `-/\[MessageActionCreators\]/` | `-/\[MessageStore\]/` |
 | `-/\[FAST\sCONNECT\]/ -/Initializing\svoice/` | `-/\[GatewayDiscovery\]/` |
 | `-/\[ConnectionStore\]/` | `-/\[RPCServer:WSS\]/ -/EADDRINUSE/` |
 | `-/\[AuthenticationStore\]/` | `-/\[GuildAvailabilityStore\]/` |
 | `-/\[NativeDispatchUtils\]/` | `-/\[Spellchecker\]/` |
-| `-/\[RouterUtils\]/` | `-/\[MessageStore\]/` |
+| `-/\[RouterUtils\]/` |
 
 ```regex
 -/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/
