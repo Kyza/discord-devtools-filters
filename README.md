@@ -6,15 +6,15 @@ Filters for the devtools in Discord to clean it up.
 
 | | |
 |:-:|:-:|
-| `-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordDevelopment_8SzhkAcAWa.png) | `-/\[Spellchecker\]/` |
+| `-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordDevelopment_8SzhkAcAWa.png) | `-/\[RPCServer:IPC\]/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/RPCServerIPC.png) |
 | `-/\[Spotify\]/` | `-/\[Flux\]/` |
 | `-/\[GatewaySocket\]/` | `-/\[RTCLatencyTestManager\]/` |
 | `-/\[Logger\.tsx\]/` | `-/\[default\]/` |
-| `-/\[MessageActionCreators\]/` | `-/\[RPCServer:IPC\]/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/RPCServerIPC.png) |
+| `-/\[MessageActionCreators\]/` 
 | `-/\[FAST CONNECT\]/ -/Initializing\svoice/` | `-/\[GatewayDiscovery\]/` |
 | `-/\[ConnectionStore\]/` | `-/\[RPCServer:WSS\]/ -/EADDRINUSE/` |
 | `-/\[AuthenticationStore\]/` | `-/\[GuildAvailabilityStore\]/` |
-| `-/\[NativeDispatchUtils\]/` |
+| `-/\[NativeDispatchUtils\]/` | `-/\[Spellchecker\]/` |
 
 ```regex
 -/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST CONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  /\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/
@@ -24,9 +24,9 @@ Filters for the devtools in Discord to clean it up.
 
 | | |
 |:-:|:-:|
-| `-/WebSocket\sconnection/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/Discord_kEQ9HvoxiO.png) | `-/status\sof\s\d{3}/` |
+| `-/WebSocket\sconnection/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/Discord_kEQ9HvoxiO.png) | `-/The\sconnection\shas\sbeen\srevoked/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordCanary_gOz21e3NMf.png) |
 | `-/SourceMap/` | `-/SET_ACTIVITY/` |
-| `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/The\sconnection\shas\sbeen\srevoked/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordCanary_gOz21e3NMf.png) |
+| `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
 | `-/GET\s.+\d{3}/` |
 
 ```regex
