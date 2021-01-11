@@ -30,7 +30,7 @@ Filters for the devtools in Discord to clean it up.
 | `-/SourceMap/` | `-/SET_ACTIVITY/` |
 | `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
 | `-/GET\s.+\d{3}/` | `-/iterable\.length/` |
-| `-/react-spring:\sThe\s"interpolate"/` | `-/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/` |
+| `-/react-spring:\sThe\s"interpolate"/` | `-/(S\|Uns)ubscribing\s(to\|from)\sframes.+\d+/` |
 
 ```regex
 -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/
