@@ -41,13 +41,14 @@ Filters for the devtools in Discord to clean it up.
 |  |  |
 |:-:|:-:|
 | `-/"pc-sdk"/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordCanary_wqy6WuWcKX.png) | `-/\[BdApi\]\sgetPlugin/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/getPlugin.png) |
+| `-/\[PublicServers\]\sCould\snot/` |
 
 ```regex
--/"pc-sdk"/ -/\[BdApi\]\sgetPlugin/
+-/"pc-sdk"/ -/\[BdApi\]\sgetPlugin/ -/\[PublicServers\]\sCould\snot/
 ```
 
 ## Everything
 
 ```regex
--/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/ -/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/\[BdApi\]\sgetPlugin/
+-/Hold\sUp!/ -/11\/10\schance\syou're\sbeing\sscammed/ -/attackers\saccess/ -/understand\sexactly/ -/discord\.com\/jobs/ -/\[Spellchecker\]/ -/\[Spotify\]/ -/\[Flux\]/ -/\[GatewaySocket\]/ -/\[RTCLatencyTestManager\]/ -/\[Logger\.tsx\]/ -/\[default\]/ -/\[MessageActionCreators\]/ -/\[RPCServer:IPC\]/ -/\[FAST\sCONNECT\]/ -/Initializing\svoice/ -/\[GatewayDiscovery\]/ -/\[ConnectionStore\]/ -/\[RPCServer:WSS\]/ -/EADDRINUSE/  -/\[AuthenticationStore\]/ -/\[GuildAvailabilityStore\]/ -/\[NativeDispatchUtils\]/ -/\[RouterUtils\]/ -/\[MessageStore\]/ -/\[Violation\]/ -/capturing\sdesktop/ -/(S|Uns)ubscribing\s(to|from)\sframes.+\d+/ -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/GET\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/\[BdApi\]\sgetPlugin/ -/\[PublicServers\]\sCould\snot/
 ```
