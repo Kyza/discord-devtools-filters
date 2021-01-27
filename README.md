@@ -29,7 +29,7 @@ Filters for the devtools in Discord to clean it up.
 | `-/WebSocket\sconnection/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/Discord_kEQ9HvoxiO.png) | `-/The\sconnection\shas\sbeen\srevoked/` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/DiscordCanary_gOz21e3NMf.png) |
 | `-/SourceMap/` | `-/SET_ACTIVITY/` |
 | `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
-| `-/(GET|PUT)\s.+\d{3}/` | `-/iterable\.length/` |
+| `-/(GET\|PUT)\s.+\d{3}/` | `-/iterable\.length/` |
 | `-/react-spring:\sThe\s"interpolate"/` | `-/Unknown\sUser.+10013/` |
 | `-url:https://discord.com/api/v8/users/@me/notes` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/notesError.png) |
 
