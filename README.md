@@ -31,6 +31,7 @@ Filters for the devtools in Discord to clean it up.
 | `-/DISCORD_NATIVE_MODULES_INSTALL/` | `-/status\sof\s\d{3}/` |
 | `-/(GET|PUT)\s.+\d{3}/` | `-/iterable\.length/` |
 | `-/react-spring:\sThe\s"interpolate"/` | `-/Unknown\sUser.+10013/` |
+| `-url:https://discord.com/api/v8/users/@me/notes` ![](https://github.com/Kyza/discord-devtools-filters/blob/master/media/notesError.png) |
 
 ```regex
 -/WebSocket\sconnection/ -/status\sof\s\d{3}/ -/SourceMap/ -/SET_ACTIVITY/ -/DISCORD_NATIVE_MODULES_INSTALL/ -/The\sconnection\shas\sbeen\srevoked/ -/(GET|PUT)\s.+\d{3}/ -/iterable\.length/ -/react-spring:\sThe\s"interpolate"/ -/Unknown\sUser.+10013/
