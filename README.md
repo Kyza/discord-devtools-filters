@@ -11,4 +11,7 @@ Filters for the devtools in Discord to clean it up.
 -/Initializing\svoice\sengine\swith\saudio\ssubsystem:\s(true|false)/ 
 -/ConnectionEventFramerateReducer:\s(true|false)./ 
 -/updateVideoQuality:\s.+/ 
+-/(GET|POST).+net::(ERR_NAME_NOT_RESOLVED|ERR_NETWORK_CHANGED)/ 
+-/Possible\scauses:\sthe\snetwork\sis\soffline/ 
+-/\d+\slog\sentries\sare\snot\sshown\./ 
 ```
