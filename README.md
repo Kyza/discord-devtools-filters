@@ -14,4 +14,5 @@ Filters for the devtools in Discord to clean it up.
 -/(GET|POST).+net::(ERR_NAME_NOT_RESOLVED|ERR_NETWORK_CHANGED)/ 
 -/Possible\scauses:\sthe\snetwork\sis\soffline/ 
 -/\d+\slog\sentries\sare\snot\sshown\./ 
+-/(Uns|s)ubscribing\s(from|to)\sframes\sfor\sstreamId\s\d+/ 
 ```
