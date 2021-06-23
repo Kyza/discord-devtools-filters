@@ -3,7 +3,8 @@
 Filters for the devtools in Discord to clean it up.
 
 ```regex
--/^\[.+\]/ -/Failed\sto\sload\sresource:/ 
+-/^\[.+\]/ 
+-/Failed\sto\sload\sresource:/ 
 -/Websocket\sconnection\sto\s'.+'\sfailed:/ 
 -/DevTools\sfailed\sto\sload\ssource\smap:/ 
 -/(GET|PUT).+\d{3}/ 
